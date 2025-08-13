@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Royal Music World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Royal Music World</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to The Royal Music World</h1>
+        <p>Explore the joy of music with our vibrant classes for children.</p>
+        <a href="#classes" class="btn">View Classes</a>
+    </section>
+
+    <!-- Floating Music Elements -->
+    <div class="floating-elements">
+        <img src="https://cdn-icons-png.flaticon.com/512/727/727218.png" class="note" alt="Music Note">
+        <img src="https://cdn-icons-png.flaticon.com/512/727/727240.png" class="note" alt="Music Note">
+        <img src="https://cdn-icons-png.flaticon.com/512/727/727223.png" class="note" alt="Music Note">
+        <img src="https://cdn-icons-png.flaticon.com/512/727/727208.png" class="note" alt="Music Note">
+    </div>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes">
+        <h2>Our Classes</h2>
+        <div class="class-cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1603415526960-f07b5fcd1b49" alt="Piano">
+                <h3>Piano</h3>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1599058917214-7b0baf3e0f27" alt="Guitar">
+                <h3>Guitar</h3>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2" alt="Violin">
+                <h3>Violin</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>The Royal Music World is dedicated to nurturing young talent with passionate and engaging music lessons. Our teachers are skilled professionals who love inspiring children.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 DREAMBOAT. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
